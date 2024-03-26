@@ -8,8 +8,8 @@ from linebot.models import MessageEvent, TextMessage, TextSendMessage
 
 app = Flask(__name__)
 
-line_bot_api = LineBotApi('h/CGBP0eDeYlKf5se+2cCOD/kV1cArUYO9O401UGgBWr8qpGyaa0OxVQ62tshBKyiznpySyA4uUFz1pJpC41moaCBfVebdIFnCMWkP/twrXY8gJLBRN8rkbWW1M77ssPN4rseJoCwSoaxDnOMhZWuAdB04t89/1O/w1cDnyilFU=')
-handler = WebhookHandler('db8a650f3d97ce784bfca7493c2397b0')
+line_bot_api = LineBotApi('')
+handler = WebhookHandler('')
 
 # 定義中獎訊息
 prize_messages = {
