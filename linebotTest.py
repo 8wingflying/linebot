@@ -9,8 +9,8 @@ import sqlite3
 
 app = Flask(__name__)
 
-line_bot_api = LineBotApi('')
-handler = WebhookHandler('')
+line_bot_api = LineBotApi('h/CGBP0eDeYlKf5se+2cCOD/kV1cArUYO9O401UGgBWr8qpGyaa0OxVQ62tshBKyiznpySyA4uUFz1pJpC41moaCBfVebdIFnCMWkP/twrXY8gJLBRN8rkbWW1M77ssPN4rseJoCwSoaxDnOMhZWuAdB04t89/1O/w1cDnyilFU=')
+handler = WebhookHandler('4371239cc012d6d1160c7090ee846caf')
 
 # SQLite 數據庫文件路徑
 DB_FILE_PATH = 'invoice_data.db'
