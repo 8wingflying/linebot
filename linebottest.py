@@ -9,8 +9,11 @@ import sqlite3
 
 app = Flask(__name__)
 
-line_bot_api = LineBotApi('mAtc8zVmouT8hU/mo/QNw1YbbpsgbLqmI6rZ5UUp1aRlB8p3l0bjFrHSy8MRi0kKfOtmsyZT0+37oZMOGB2v9CvISzZ4dm0gE6M0aEmowHzL55jKzJTNNSdAtJqJKP+7RjOReJ1sMnViNPTrVVn60QdB04t89/1O/w1cDnyilFU=')
-handler = WebhookHandler('c68e26bf48e487daa77d53043c45f6fd')
+# 將line | Messaging API的Channel access token 填入LineBotApi('')
+line_bot_api = LineBotApi('p2zTBbSKNVhhm5toQw342UXsuWI/2DhyLlp1rJHqPoYhez0zCWMW6+/AgkB1aw3JULoitrXBqbmXrI7HQP41HdtJWliRQ1S7uZVnH0rJ2+gR1fCq4x6FKv05jjrM3kFU3lD2UTqwnQTTl6SsAeHRpAdB04t89/1O/w1cDnyilFU=')
+
+# 將line|Basic settings的Channel secret 填入WebhookHandler('')
+handler = WebhookHandler('5b9cd080857c1b5253c5996cf57acb0c')
 
 # SQLite 數據庫文件路徑
 DB_FILE_PATH = 'invoice_data.db'
